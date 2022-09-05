@@ -93,3 +93,14 @@ Escape character is '^]'.
 telnet> quit
 Connection closed.
 ```
+
+Verison info:
+```
+mvnd 0.8.0 darwin-amd64 native client (2cfffe23eebac7a0fddecf0268478ae963a8859f)
+Terminal: org.jline.terminal.impl.PosixSysTerminal with pty org.jline.terminal.impl.jansi.osx.OsXNativePty
+Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0)
+Maven home: /usr/local/Cellar/mvnd/0.8.0/libexec/mvn
+Java version: 17.0.3, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "12.5.1", arch: "x86_64", family: "mac"
+```
