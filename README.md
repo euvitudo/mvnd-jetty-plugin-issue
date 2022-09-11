@@ -80,21 +80,8 @@ Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContainerIniti
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 65 common frames omitted
-```
 
-Jetty also remains running, which requires a `mvnd --stop`:
-
-```
-$ telnet localhost 38080
-Trying 127.0.0.1...
-Connected to localhost.
-Escape character is '^]'.
-^]
-telnet> quit
-Connection closed.
-```
-
-Verison info:
+Version info:
 ```
 mvnd 0.8.0 darwin-amd64 native client (2cfffe23eebac7a0fddecf0268478ae963a8859f)
 Terminal: org.jline.terminal.impl.PosixSysTerminal with pty org.jline.terminal.impl.jansi.osx.OsXNativePty
