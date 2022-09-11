@@ -80,6 +80,7 @@ Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContainerIniti
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:587)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 65 common frames omitted
+```
 
 Version info:
 ```
